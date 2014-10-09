@@ -21,7 +21,7 @@ public class Connection implements Runnable {
     @Override
     public void run() {
         while (true){
-            //communication
+            //communication-part
             try{
                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(this.socket.getInputStream()));
                 String line = new String();
